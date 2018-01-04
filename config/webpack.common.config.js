@@ -35,6 +35,18 @@ const config = {
       commonjs2: 'react-dom',
       amd: 'react-dom'
     },
+    'prop-types': {
+      root: 'PropTypes',
+      commonjs: 'prop-types',
+      commonjs2: 'prop-types',
+      amd: 'prop-types'
+    },
+    'create-react-class': {
+      root: 'CreateReactClass',
+      commonjs: 'create-react-class',
+      commonjs2: 'create-react-class',
+      amd: 'create-react-class'
+    },
     'react/addons': 'React',
     moment: 'moment'
   },
