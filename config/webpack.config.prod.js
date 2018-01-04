@@ -2,10 +2,10 @@ const webpackCommon = require('./webpack.common.config');
 
 const config =  {
   entry: {
-    'react-data-grid/dist/react-data-grid': ['./packages/react-data-grid/src'],
-    'react-data-grid-addons/dist/react-data-grid-addons': ['./packages/react-data-grid-addons/src'],
-    'react-data-grid/dist/react-data-grid.min': ['./packages/react-data-grid/src'],
-    'react-data-grid-addons/dist/react-data-grid-addons.min': ['./packages/react-data-grid-addons/src'],
+    'react-data-grid/dist/react-data-grid-aman': ['./packages/react-data-grid/src'],
+    'react-data-grid-addons/dist/react-data-grid-addons-aman': ['./packages/react-data-grid-addons/src'],
+    'react-data-grid/dist/react-data-grid-aman.min': ['./packages/react-data-grid/src'],
+    'react-data-grid-addons/dist/react-data-grid-addons-aman.min': ['./packages/react-data-grid-addons/src'],
     'react-data-grid-examples/dist/shared': './packages/react-data-grid-examples/src/shared.js',
     'react-data-grid-examples/dist/examples': './packages/react-data-grid-examples/src/examples.js',
     'react-data-grid-examples/dist/index': './packages/react-data-grid-examples/src/index.js',
